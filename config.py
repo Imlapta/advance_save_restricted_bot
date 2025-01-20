@@ -1,0 +1,7 @@
+API_ID = int(getenv("API_ID", "6737254"))
+API_HASH = getenv("API_HASH", "5a318e899b1d501737184754c65f66e5")
+BOT_TOKEN = getenv("BOT_TOKEN", "")
+OWNER_ID = int(getenv("OWNER_ID", "6737254"))
+MONGODB_CONNECTION_STRING = getenv("MONGO_DB", "mongodb+srv://rrahuldhaker:7F6evbaKu8m7Ybr5@cluster0.w5kvs.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
+LOG_GROUP = int(getenv("LOG_GROUP", ""))
+FORCESUB = getenv("FORCESUB", "True")
